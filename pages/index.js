@@ -6,10 +6,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Script
+        id="google-analytics-script"
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
       />
-      <Script strategy="lazyOnload">
+      <Script id="google-analytics-script-2" strategy="lazyOnload">
         {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
