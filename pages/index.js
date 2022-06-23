@@ -41,12 +41,14 @@ export default function Home() {
           sizes="16x16"
           href="/images/favicon-16x16.png"
         />
-        <meta name="description" content="Honestly, Nevermind" />
+        {/* <meta name="description" content="Honestly, Nevermind" /> */}
         <meta property="og:title" content="Honestly, Nevermind" />
         <meta
           property="og:description"
           content="House + Afrobeats - Dallas, TX"
         />
+        <meta name="og:site_name" content="Site Name" />
+        <meta name="og:type" content="website" />
         <meta
           property="og:image"
           content="https://i.pinimg.com/564x/1c/ad/3d/1cad3d86e0313e779f0b23d89554c181.jpg"
