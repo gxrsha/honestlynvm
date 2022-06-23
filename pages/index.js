@@ -66,6 +66,7 @@ export default function Home() {
           className="inset-0 object-cover h-screen xl:h-auto"
           autoPlay
           loop
+          playsInline
           muted
           typeof="video/mp4"
           src="./assets/honestlynvm.mp4"
